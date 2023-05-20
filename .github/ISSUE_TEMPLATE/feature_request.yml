@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[FEATURE REQUEST]: "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "## 🚀 Feature Proposal"
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "✨ Describe the feature"
+      description: "Provide a clear and concise description of what the feature is."
+      placeholder: "Ex. As a user of this project, I would like [...]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: "🔬 Describe the problem this feature solves"
+      description: "Provide a clear and concise description of what problem is solved by this feature."
+      placeholder: "Ex. I'm always frustrated when [...]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "💡 Describe alternatives you've considered"
+      description: "Let us know about other solutions you've tried or researched."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "🧩 Additional context"
+      description: "Add any other context or screenshots about the feature request here."
+    validations:
+      required: false
